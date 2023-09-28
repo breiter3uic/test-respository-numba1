@@ -1,0 +1,40 @@
+---
+title: "First attempts at data viz"
+author: "Jack Breiter"
+date: "September 28 2023"
+output: html_document
+---
+
+## Loading in the data for T0
+
+```{r}
+getwd()
+library(tidyverse)
+t0csv <- read_csv("T0 July 12th Spreadsheet.xlsx - Log.csv")
+
+```
+
+## Loading in the data for T1
+
+```{r}
+t1csv <- read_csv("T1 July 12th Spreadsheet.xlsx - Log.csv")
+```
+
+## Loading in the data for T2
+
+```{r}
+t2csv <- read_csv("T2 July 12th Spreadsheet.xlsx - Log.csv")
+```
+
+## Loading in the data for T3
+
+```{r}
+t3csv <- read_csv("T3 July 12th Spreadsheet.xlsx - Log.csv")
+```
+
+## Loading in the data for T4
+
+```{r}
+t4csv <- read_csv("T4 July 12th Spreadsheet.xlsx - Log.csv")
+```
+
